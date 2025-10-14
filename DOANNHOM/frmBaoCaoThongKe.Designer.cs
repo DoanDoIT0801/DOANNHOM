@@ -84,7 +84,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Tác Giả";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            
             // 
             // button2
             // 
@@ -109,7 +109,7 @@
             this.btnsach.TabIndex = 0;
             this.btnsach.Text = "Sách";
             this.btnsach.UseVisualStyleBackColor = false;
-            this.btnsach.Click += new System.EventHandler(this.button1_Click);
+           
             // 
             // openFileDialog1
             // 
@@ -135,8 +135,7 @@
             this.label2.Size = new System.Drawing.Size(290, 42);
             this.label2.TabIndex = 0;
             this.label2.Text = "Thống Kê Sách";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
+            
             // panel2
             // 
             this.panel2.Controls.Add(this.button6);
@@ -177,7 +176,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Sinh Viên";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            
             // 
             // button5
             // 
@@ -230,7 +229,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "frmBaoCaoThongKe";
             this.Text = "frmThongKe";
-            this.Load += new System.EventHandler(this.frmThongKe_Load);
+           
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
