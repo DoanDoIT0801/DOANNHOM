@@ -16,5 +16,10 @@ namespace DOANNHOM
         {
             InitializeComponent();
         }
+
+        private void frmBaoCaoThongKe_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

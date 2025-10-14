@@ -353,7 +353,7 @@
             // 
             this.trangChủToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.trangChủToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.trangChủToolStripMenuItem.Image = global::DOANNHOM.Properties.Resources.homepage;
+           
             this.trangChủToolStripMenuItem.Name = "trangChủToolStripMenuItem";
             this.trangChủToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.trangChủToolStripMenuItem.Text = "Trang Chủ";
@@ -362,8 +362,6 @@
             // 
             this.quảnLýSáchToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.quảnLýSáchToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.quảnLýSáchToolStripMenuItem.Image = global::DOANNHOM.Properties.Resources.QLSach;
-            this.quảnLýSáchToolStripMenuItem.Name = "quảnLýSáchToolStripMenuItem";
             this.quảnLýSáchToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.quảnLýSáchToolStripMenuItem.Text = "Quản Lý Sách";
             // 
@@ -371,7 +369,7 @@
             // 
             this.đọcGiảToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.đọcGiảToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.đọcGiảToolStripMenuItem.Image = global::DOANNHOM.Properties.Resources.DocGia;
+
             this.đọcGiảToolStripMenuItem.Name = "đọcGiảToolStripMenuItem";
             this.đọcGiảToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.đọcGiảToolStripMenuItem.Text = "Đọc Giả";
@@ -380,7 +378,7 @@
             // 
             this.mượnTrảToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.mượnTrảToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.mượnTrảToolStripMenuItem.Image = global::DOANNHOM.Properties.Resources.MuonTra;
+           
             this.mượnTrảToolStripMenuItem.Name = "mượnTrảToolStripMenuItem";
             this.mượnTrảToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.mượnTrảToolStripMenuItem.Text = "Mượn Trả";
@@ -389,7 +387,7 @@
             // 
             this.tàiKhoảnToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.tàiKhoảnToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.tàiKhoảnToolStripMenuItem.Image = global::DOANNHOM.Properties.Resources.Profile;
+           
             this.tàiKhoảnToolStripMenuItem.Name = "tàiKhoảnToolStripMenuItem";
             this.tàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tàiKhoảnToolStripMenuItem.Text = "Tài Khoản";
