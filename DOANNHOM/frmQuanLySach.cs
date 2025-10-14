@@ -16,5 +16,10 @@ namespace DOANNHOM
         {
             InitializeComponent();
         }
+
+        private void frmQuanLySach_Load(object sender, EventArgs e)
+        {
+            // hello
+        }
     }
 }
