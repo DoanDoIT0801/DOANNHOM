@@ -14,5 +14,6 @@ D:\DOANNHOM\DOANNHOM\obj\Debug\DOANNHOM.csproj.CoreCompileInputs.cache
 D:\DOANNHOM\DOANNHOM\obj\Debug\DOANNHOM.csproj.Up2Date
 D:\DOANNHOM\DOANNHOM\obj\Debug\DOANNHOM.exe
 D:\DOANNHOM\DOANNHOM\obj\Debug\DOANNHOM.pdb
-D:\DOANNHOM\DOANNHOM\obj\Debug\DOANNHOM.exe.config
 D:\DOANNHOM\DOANNHOM\obj\Debug\DOANNHOM.frmBaoCaoThongKe.resources
+D:\DOANNHOM\DOANNHOM\obj\Debug\DOANNHOM.frmTrangChu.resources
+D:\DOANNHOM\DOANNHOM\obj\Debug\DOANNHOM.exe.config

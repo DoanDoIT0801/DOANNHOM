@@ -30,50 +30,83 @@
         {
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.grSinhVien = new System.Windows.Forms.GroupBox();
-            this.grTimKiem = new System.Windows.Forms.GroupBox();
-            this.grSach = new System.Windows.Forms.GroupBox();
-            this.grMuon = new System.Windows.Forms.GroupBox();
-            this.entityCommand1 = new System.Data.Entity.Core.EntityClient.EntityCommand();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNameStudent = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtIDStudent = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.grSach = new System.Windows.Forms.GroupBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.txtNameSach = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txtIDSach = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
+            this.grTimKiem = new System.Windows.Forms.GroupBox();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.grMuon = new System.Windows.Forms.GroupBox();
+            this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.entityCommand1 = new System.Data.Entity.Core.EntityClient.EntityCommand();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnMuon = new System.Windows.Forms.Button();
+            this.btnGiaHan = new System.Windows.Forms.Button();
+            this.btnTraSach = new System.Windows.Forms.Button();
+            this.btnGhiLai = new System.Windows.Forms.Button();
+            this.btnHuyBo = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.txtMaPM = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.txtIDSV = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.txtTTSach = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.grTimKiemTheo = new System.Windows.Forms.GroupBox();
+            this.grNhapTimKiem = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.txtTimKiem = new System.Windows.Forms.TextBox();
+            this.cmbTenSach = new System.Windows.Forms.ComboBox();
+            this.dtpNgayTra = new System.Windows.Forms.DateTimePicker();
+            this.dtpNgayMuon = new System.Windows.Forms.DateTimePicker();
             this.flowLayoutPanel3.SuspendLayout();
-            this.flowLayoutPanel4.SuspendLayout();
-            this.flowLayoutPanel5.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.flowLayoutPanel7.SuspendLayout();
             this.grSinhVien.SuspendLayout();
-            this.grSach.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.flowLayoutPanel4.SuspendLayout();
+            this.grSach.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.flowLayoutPanel5.SuspendLayout();
+            this.grTimKiem.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.grMuon.SuspendLayout();
+            this.flowLayoutPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.grTimKiemTheo.SuspendLayout();
+            this.grNhapTimKiem.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel3
@@ -83,38 +116,6 @@
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(388, 118);
             this.flowLayoutPanel3.TabIndex = 1;
-            // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.Controls.Add(this.grSach);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(3, 173);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(388, 164);
-            this.flowLayoutPanel4.TabIndex = 2;
-            // 
-            // flowLayoutPanel5
-            // 
-            this.flowLayoutPanel5.Controls.Add(this.grTimKiem);
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(397, 49);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(572, 59);
-            this.flowLayoutPanel5.TabIndex = 2;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.grMuon);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(397, 114);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(572, 223);
-            this.flowLayoutPanel2.TabIndex = 3;
-            // 
-            // flowLayoutPanel7
-            // 
-            this.flowLayoutPanel7.Controls.Add(this.dataGridView1);
-            this.flowLayoutPanel7.Location = new System.Drawing.Point(3, 387);
-            this.flowLayoutPanel7.Name = "flowLayoutPanel7";
-            this.flowLayoutPanel7.Size = new System.Drawing.Size(966, 170);
-            this.flowLayoutPanel7.TabIndex = 4;
             // 
             // grSinhVien
             // 
@@ -127,14 +128,63 @@
             this.grSinhVien.TabStop = false;
             this.grSinhVien.Text = "Thông tin sinh viên";
             // 
-            // grTimKiem
+            // panel2
             // 
-            this.grTimKiem.Location = new System.Drawing.Point(3, 3);
-            this.grTimKiem.Name = "grTimKiem";
-            this.grTimKiem.Size = new System.Drawing.Size(569, 56);
-            this.grTimKiem.TabIndex = 0;
-            this.grTimKiem.TabStop = false;
-            this.grTimKiem.Text = "Tìm kiếm";
+            this.panel2.Controls.Add(this.txtNameStudent);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Location = new System.Drawing.Point(6, 65);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(373, 35);
+            this.panel2.TabIndex = 3;
+            // 
+            // txtNameStudent
+            // 
+            this.txtNameStudent.Location = new System.Drawing.Point(87, 7);
+            this.txtNameStudent.Name = "txtNameStudent";
+            this.txtNameStudent.Size = new System.Drawing.Size(283, 22);
+            this.txtNameStudent.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 10);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(50, 16);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Tên Sv";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.txtIDStudent);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Location = new System.Drawing.Point(6, 21);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(373, 35);
+            this.panel1.TabIndex = 0;
+            // 
+            // txtIDStudent
+            // 
+            this.txtIDStudent.Location = new System.Drawing.Point(87, 7);
+            this.txtIDStudent.Name = "txtIDStudent";
+            this.txtIDStudent.Size = new System.Drawing.Size(283, 22);
+            this.txtIDStudent.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 10);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 16);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Mã SV";
+            // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.Controls.Add(this.grSach);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(3, 173);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(388, 164);
+            this.flowLayoutPanel4.TabIndex = 2;
             // 
             // grSach
             // 
@@ -148,22 +198,130 @@
             this.grSach.TabStop = false;
             this.grSach.Text = "Thông tin Sách";
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.txtSoLuong);
+            this.panel5.Controls.Add(this.label6);
+            this.panel5.Location = new System.Drawing.Point(6, 113);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(373, 35);
+            this.panel5.TabIndex = 5;
+            // 
+            // txtSoLuong
+            // 
+            this.txtSoLuong.Location = new System.Drawing.Point(87, 7);
+            this.txtSoLuong.Name = "txtSoLuong";
+            this.txtSoLuong.Size = new System.Drawing.Size(283, 22);
+            this.txtSoLuong.TabIndex = 2;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(13, 10);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(64, 16);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Số Lượng";
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.txtNameSach);
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Location = new System.Drawing.Point(6, 62);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(373, 35);
+            this.panel4.TabIndex = 4;
+            // 
+            // txtNameSach
+            // 
+            this.txtNameSach.Location = new System.Drawing.Point(87, 7);
+            this.txtNameSach.Name = "txtNameSach";
+            this.txtNameSach.Size = new System.Drawing.Size(283, 22);
+            this.txtNameSach.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 10);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 16);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Tên Sách";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.txtIDSach);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Location = new System.Drawing.Point(6, 21);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(373, 35);
+            this.panel3.TabIndex = 3;
+            // 
+            // txtIDSach
+            // 
+            this.txtIDSach.Location = new System.Drawing.Point(87, 7);
+            this.txtIDSach.Name = "txtIDSach";
+            this.txtIDSach.Size = new System.Drawing.Size(283, 22);
+            this.txtIDSach.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(13, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 16);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Mã Sách";
+            // 
+            // flowLayoutPanel5
+            // 
+            this.flowLayoutPanel5.Controls.Add(this.grTimKiem);
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(397, 49);
+            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(572, 80);
+            this.flowLayoutPanel5.TabIndex = 2;
+            // 
+            // grTimKiem
+            // 
+            this.grTimKiem.Controls.Add(this.grNhapTimKiem);
+            this.grTimKiem.Controls.Add(this.grTimKiemTheo);
+            this.grTimKiem.Location = new System.Drawing.Point(3, 3);
+            this.grTimKiem.Name = "grTimKiem";
+            this.grTimKiem.Size = new System.Drawing.Size(569, 74);
+            this.grTimKiem.TabIndex = 0;
+            this.grTimKiem.TabStop = false;
+            this.grTimKiem.Text = "Tìm kiếm";
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.grMuon);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(397, 132);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(572, 205);
+            this.flowLayoutPanel2.TabIndex = 3;
+            // 
             // grMuon
             // 
+            this.grMuon.Controls.Add(this.panel11);
+            this.grMuon.Controls.Add(this.panel10);
+            this.grMuon.Controls.Add(this.panel9);
+            this.grMuon.Controls.Add(this.panel8);
+            this.grMuon.Controls.Add(this.panel7);
+            this.grMuon.Controls.Add(this.panel6);
             this.grMuon.Location = new System.Drawing.Point(3, 3);
             this.grMuon.Name = "grMuon";
-            this.grMuon.Size = new System.Drawing.Size(567, 220);
+            this.grMuon.Size = new System.Drawing.Size(569, 199);
             this.grMuon.TabIndex = 0;
             this.grMuon.TabStop = false;
             this.grMuon.Text = "Phiếu Mượn";
             // 
-            // entityCommand1
+            // flowLayoutPanel7
             // 
-            this.entityCommand1.CommandTimeout = 0;
-            this.entityCommand1.CommandTree = null;
-            this.entityCommand1.Connection = null;
-            this.entityCommand1.EnablePlanCaching = true;
-            this.entityCommand1.Transaction = null;
+            this.flowLayoutPanel7.Controls.Add(this.dataGridView1);
+            this.flowLayoutPanel7.Location = new System.Drawing.Point(3, 387);
+            this.flowLayoutPanel7.Name = "flowLayoutPanel7";
+            this.flowLayoutPanel7.Size = new System.Drawing.Size(966, 185);
+            this.flowLayoutPanel7.TabIndex = 4;
             // 
             // dataGridView1
             // 
@@ -172,8 +330,16 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(966, 167);
+            this.dataGridView1.Size = new System.Drawing.Size(966, 182);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // entityCommand1
+            // 
+            this.entityCommand1.CommandTimeout = 0;
+            this.entityCommand1.CommandTree = null;
+            this.entityCommand1.Connection = null;
+            this.entityCommand1.EnablePlanCaching = true;
+            this.entityCommand1.Transaction = null;
             // 
             // label1
             // 
@@ -187,186 +353,263 @@
             this.label1.Text = "Mượn Trả Sách";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button2
+            // btnMuon
             // 
-            this.button2.Location = new System.Drawing.Point(4, 343);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(132, 38);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnMuon.Location = new System.Drawing.Point(12, 343);
+            this.btnMuon.Name = "btnMuon";
+            this.btnMuon.Size = new System.Drawing.Size(132, 38);
+            this.btnMuon.TabIndex = 6;
+            this.btnMuon.Text = "Mượn";
+            this.btnMuon.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnGiaHan
             // 
-            this.button3.Location = new System.Drawing.Point(192, 346);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(132, 38);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "button2";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnGiaHan.Location = new System.Drawing.Point(192, 346);
+            this.btnGiaHan.Name = "btnGiaHan";
+            this.btnGiaHan.Size = new System.Drawing.Size(132, 38);
+            this.btnGiaHan.TabIndex = 6;
+            this.btnGiaHan.Text = "Gia Hạn";
+            this.btnGiaHan.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnTraSach
             // 
-            this.button4.Location = new System.Drawing.Point(400, 346);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(132, 38);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "button2";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnTraSach.Location = new System.Drawing.Point(400, 346);
+            this.btnTraSach.Name = "btnTraSach";
+            this.btnTraSach.Size = new System.Drawing.Size(132, 38);
+            this.btnTraSach.TabIndex = 6;
+            this.btnTraSach.Text = "Trả Sách";
+            this.btnTraSach.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnGhiLai
             // 
-            this.button5.Location = new System.Drawing.Point(629, 346);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(132, 38);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "button2";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnGhiLai.Location = new System.Drawing.Point(629, 346);
+            this.btnGhiLai.Name = "btnGhiLai";
+            this.btnGhiLai.Size = new System.Drawing.Size(132, 38);
+            this.btnGhiLai.TabIndex = 6;
+            this.btnGhiLai.Text = "Ghi Lại";
+            this.btnGhiLai.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnHuyBo
             // 
-            this.button6.Location = new System.Drawing.Point(816, 343);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(132, 38);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "button2";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnHuyBo.Location = new System.Drawing.Point(816, 343);
+            this.btnHuyBo.Name = "btnHuyBo";
+            this.btnHuyBo.Size = new System.Drawing.Size(132, 38);
+            this.btnHuyBo.TabIndex = 6;
+            this.btnHuyBo.Text = "Hủy bỏ";
+            this.btnHuyBo.UseVisualStyleBackColor = true;
             // 
-            // panel1
+            // panel6
             // 
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(6, 21);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(373, 35);
-            this.panel1.TabIndex = 0;
+            this.panel6.Controls.Add(this.txtMaPM);
+            this.panel6.Controls.Add(this.label7);
+            this.panel6.Location = new System.Drawing.Point(6, 33);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(258, 35);
+            this.panel6.TabIndex = 4;
             // 
-            // label3
+            // txtMaPM
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 16);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Mã SV";
+            this.txtMaPM.Location = new System.Drawing.Point(87, 7);
+            this.txtMaPM.Name = "txtMaPM";
+            this.txtMaPM.Size = new System.Drawing.Size(155, 22);
+            this.txtMaPM.TabIndex = 2;
             // 
-            // textBox1
+            // label7
             // 
-            this.textBox1.Location = new System.Drawing.Point(87, 7);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(283, 22);
-            this.textBox1.TabIndex = 2;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(13, 10);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(49, 16);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Mã PM";
             // 
-            // panel2
+            // panel7
             // 
-            this.panel2.Controls.Add(this.textBox2);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(6, 65);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(373, 35);
-            this.panel2.TabIndex = 3;
+            this.panel7.Controls.Add(this.cmbTenSach);
+            this.panel7.Controls.Add(this.label8);
+            this.panel7.Location = new System.Drawing.Point(6, 88);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(258, 35);
+            this.panel7.TabIndex = 4;
             // 
-            // textBox2
+            // label8
             // 
-            this.textBox2.Location = new System.Drawing.Point(87, 7);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(283, 22);
-            this.textBox2.TabIndex = 2;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(13, 10);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(65, 16);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Tên Sách";
             // 
-            // label2
+            // panel8
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 10);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Tên Sv";
+            this.panel8.Controls.Add(this.txtIDSV);
+            this.panel8.Controls.Add(this.label9);
+            this.panel8.Location = new System.Drawing.Point(6, 144);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(258, 35);
+            this.panel8.TabIndex = 4;
             // 
-            // panel3
+            // txtIDSV
             // 
-            this.panel3.Controls.Add(this.textBox3);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(6, 21);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(373, 35);
-            this.panel3.TabIndex = 3;
+            this.txtIDSV.Location = new System.Drawing.Point(87, 7);
+            this.txtIDSV.Name = "txtIDSV";
+            this.txtIDSV.Size = new System.Drawing.Size(155, 22);
+            this.txtIDSV.TabIndex = 2;
             // 
-            // textBox3
+            // label9
             // 
-            this.textBox3.Location = new System.Drawing.Point(87, 7);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(283, 22);
-            this.textBox3.TabIndex = 2;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(13, 10);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(47, 16);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Mã SV";
             // 
-            // label4
+            // panel9
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 10);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 16);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Mã Sách";
+            this.panel9.Controls.Add(this.dtpNgayMuon);
+            this.panel9.Controls.Add(this.label10);
+            this.panel9.Location = new System.Drawing.Point(284, 33);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(279, 35);
+            this.panel9.TabIndex = 5;
             // 
-            // panel4
+            // label10
             // 
-            this.panel4.Controls.Add(this.textBox4);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Location = new System.Drawing.Point(6, 62);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(373, 35);
-            this.panel4.TabIndex = 4;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(5, 10);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(76, 16);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "Ngày mượn";
             // 
-            // textBox4
+            // panel10
             // 
-            this.textBox4.Location = new System.Drawing.Point(87, 7);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(283, 22);
-            this.textBox4.TabIndex = 2;
+            this.panel10.Controls.Add(this.dtpNgayTra);
+            this.panel10.Controls.Add(this.label11);
+            this.panel10.Location = new System.Drawing.Point(284, 88);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(279, 35);
+            this.panel10.TabIndex = 5;
             // 
-            // label5
+            // label11
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 10);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 16);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Tên Sách";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(13, 10);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(64, 16);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Ngày Trả";
             // 
-            // panel5
+            // panel11
             // 
-            this.panel5.Controls.Add(this.textBox5);
-            this.panel5.Controls.Add(this.label6);
-            this.panel5.Location = new System.Drawing.Point(6, 113);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(373, 35);
-            this.panel5.TabIndex = 5;
+            this.panel11.Controls.Add(this.txtTTSach);
+            this.panel11.Controls.Add(this.label12);
+            this.panel11.Location = new System.Drawing.Point(284, 144);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(279, 35);
+            this.panel11.TabIndex = 5;
             // 
-            // textBox5
+            // txtTTSach
             // 
-            this.textBox5.Location = new System.Drawing.Point(87, 7);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(283, 22);
-            this.textBox5.TabIndex = 2;
+            this.txtTTSach.Location = new System.Drawing.Point(87, 7);
+            this.txtTTSach.Name = "txtTTSach";
+            this.txtTTSach.Size = new System.Drawing.Size(189, 22);
+            this.txtTTSach.TabIndex = 2;
             // 
-            // label6
+            // label12
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 10);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 16);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Số Lượng";
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(13, 10);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(59, 16);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "TT Sách";
+            // 
+            // grTimKiemTheo
+            // 
+            this.grTimKiemTheo.Controls.Add(this.radioButton2);
+            this.grTimKiemTheo.Controls.Add(this.radioButton1);
+            this.grTimKiemTheo.Location = new System.Drawing.Point(22, 17);
+            this.grTimKiemTheo.Name = "grTimKiemTheo";
+            this.grTimKiemTheo.Size = new System.Drawing.Size(258, 51);
+            this.grTimKiemTheo.TabIndex = 0;
+            this.grTimKiemTheo.TabStop = false;
+            this.grTimKiemTheo.Text = "Tìm theo";
+            // 
+            // grNhapTimKiem
+            // 
+            this.grNhapTimKiem.Controls.Add(this.txtTimKiem);
+            this.grNhapTimKiem.Location = new System.Drawing.Point(289, 17);
+            this.grNhapTimKiem.Name = "grNhapTimKiem";
+            this.grNhapTimKiem.Size = new System.Drawing.Size(259, 51);
+            this.grNhapTimKiem.TabIndex = 0;
+            this.grNhapTimKiem.TabStop = false;
+            this.grNhapTimKiem.Text = "Nhập thông tin cần tìm";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(27, 21);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(65, 20);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "MaSV";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(150, 21);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(78, 20);
+            this.radioButton2.TabIndex = 0;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "MaSach";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // txtTimKiem
+            // 
+            this.txtTimKiem.Location = new System.Drawing.Point(6, 20);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(238, 22);
+            this.txtTimKiem.TabIndex = 0;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
+            // 
+            // cmbTenSach
+            // 
+            this.cmbTenSach.FormattingEnabled = true;
+            this.cmbTenSach.Location = new System.Drawing.Point(87, 7);
+            this.cmbTenSach.Name = "cmbTenSach";
+            this.cmbTenSach.Size = new System.Drawing.Size(157, 24);
+            this.cmbTenSach.TabIndex = 2;
+            // 
+            // dtpNgayTra
+            // 
+            this.dtpNgayTra.Location = new System.Drawing.Point(87, 5);
+            this.dtpNgayTra.Name = "dtpNgayTra";
+            this.dtpNgayTra.Size = new System.Drawing.Size(189, 22);
+            this.dtpNgayTra.TabIndex = 2;
+            // 
+            // dtpNgayMuon
+            // 
+            this.dtpNgayMuon.Location = new System.Drawing.Point(85, 5);
+            this.dtpNgayMuon.Name = "dtpNgayMuon";
+            this.dtpNgayMuon.Size = new System.Drawing.Size(191, 22);
+            this.dtpNgayMuon.TabIndex = 2;
             // 
             // frmMuonTra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 560);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(984, 576);
+            this.Controls.Add(this.btnHuyBo);
+            this.Controls.Add(this.btnGhiLai);
+            this.Controls.Add(this.btnTraSach);
+            this.Controls.Add(this.btnGiaHan);
+            this.Controls.Add(this.btnMuon);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.flowLayoutPanel7);
             this.Controls.Add(this.flowLayoutPanel2);
@@ -376,23 +619,41 @@
             this.Name = "frmMuonTra";
             this.Text = "frmMuonTra";
             this.flowLayoutPanel3.ResumeLayout(false);
-            this.flowLayoutPanel4.ResumeLayout(false);
-            this.flowLayoutPanel5.ResumeLayout(false);
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.flowLayoutPanel7.ResumeLayout(false);
             this.grSinhVien.ResumeLayout(false);
-            this.grSach.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.flowLayoutPanel4.ResumeLayout(false);
+            this.grSach.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.flowLayoutPanel5.ResumeLayout(false);
+            this.grTimKiem.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.grMuon.ResumeLayout(false);
+            this.flowLayoutPanel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.grTimKiemTheo.ResumeLayout(false);
+            this.grTimKiemTheo.PerformLayout();
+            this.grNhapTimKiem.ResumeLayout(false);
+            this.grNhapTimKiem.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -412,24 +673,47 @@
         private System.Data.Entity.Core.EntityClient.EntityCommand entityCommand1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNameStudent;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtIDStudent;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnMuon;
+        private System.Windows.Forms.Button btnGiaHan;
+        private System.Windows.Forms.Button btnTraSach;
+        private System.Windows.Forms.Button btnGhiLai;
+        private System.Windows.Forms.Button btnHuyBo;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtSoLuong;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtNameSach;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtIDSach;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.TextBox txtIDSV;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.TextBox txtMaPM;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.TextBox txtTTSach;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.GroupBox grNhapTimKiem;
+        private System.Windows.Forms.GroupBox grTimKiemTheo;
+        private System.Windows.Forms.TextBox txtTimKiem;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.ComboBox cmbTenSach;
+        private System.Windows.Forms.DateTimePicker dtpNgayTra;
+        private System.Windows.Forms.DateTimePicker dtpNgayMuon;
     }
 }

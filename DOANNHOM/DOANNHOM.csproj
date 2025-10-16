@@ -155,6 +155,9 @@
     <EmbeddedResource Include="frmMuonTra.resx">
       <DependentUpon>frmMuonTra.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTrangChu.resx">
+      <DependentUpon>frmTrangChu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
